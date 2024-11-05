@@ -1,2 +1,13 @@
-business:
-  info: "Business Microservices development"
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5168/postgres
+    username: admin
+    password: admin1234
+    driver-class-name: org.postgresql.Driver
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
