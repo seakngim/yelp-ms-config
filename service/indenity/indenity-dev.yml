@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 spring:
   jpa:
     hibernate:
@@ -11,3 +14,14 @@ spring:
     multipart:
       max-request-size: 10MB
       max-file-size: 10MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: it.chhaya@gmail.com
+    password: duuf wtgf nobv hggc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
